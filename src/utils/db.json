@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Testing",
+      "type": "new",
+      "category": "Entertainment",
+      "description": "Testing this description"
+    },
+    {
+      "name": "Testing 2",
+      "type": "new 2",
+      "category": "Entertainment 2",
+      "description": "Testing this description 2"
+    },
+    {
+      "name": "New Campaign",
+      "type": "Type 1",
+      "category": "Category 1",
+      "description": "Description of the campaign"
+    }
+  ]
+  

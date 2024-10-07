@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+p{
+  margin: 0;
+}
+
+figure{
+  margin: 0;
+  padding: 0;
+}
+
+
+code {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+
+:root {
+  --primary-color: #053559;
+  --secondary-color: #E7F5FF;
+  --bg-dark: #474958;
+  --bg-grey: #FAFAFA;
+  --bg-light: #FFFFFF;
+  --black:#0D1821;
+  --text-color: #595959;
+ 
+}
+code {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}

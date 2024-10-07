@@ -1,0 +1,165 @@
+.campaign-container{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.campaign-card-box {
+  width: 340px;
+  height: 280px;
+  padding: 16px;
+  gap: 0px;
+  border-radius: 16px;
+  background-color: var(--bg-light);
+  box-shadow: 0px 0px 30px 0px #0000000d;
+  flex: 0 1 calc(33.3333% - 20px);
+}
+
+.card-heading {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.card-heading-fig {
+  height: 40px;
+  width: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.card-description {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-description p {
+  width: 155px;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  color: var(--primary-color);
+}
+
+.posted-on {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--black);
+  text-wrap: nowrap;
+}
+
+.card-description figure {
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.card-heading-fig img,
+.card-description figure img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.card-heading-subtiele {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  color: var(--text-color);
+}
+
+.card-content {
+  margin: 16px 0px 9px 0px;
+  height: 66px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  color: var(--text-color);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.channels {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.4px;
+  text-align: left;
+  color: var(--primary-color);
+}
+
+.card-budget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-budget-left {
+  color: var(--primary-color);
+}
+
+.card-budget-left p:nth-of-type(1) {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.4px;
+  text-align: left;
+}
+
+.card-budget-left p:nth-of-type(2) {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+
+.card-budget button {
+  padding: 12px 24px;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--primary-color);
+  color: var(--bg-light);
+  font-size: 14px;
+  font-weight: 500;
+
+  text-wrap: nowrap;
+}
+
+.card-socials {
+  margin: 4px 0px 9px 0px;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.4px;
+  color: var(--primary-color);
+}
+
+.card-socials figure {
+  height: 24px;
+  width: 24px;
+}
+
+.card-socials figure img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
