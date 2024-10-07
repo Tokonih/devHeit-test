@@ -10,6 +10,10 @@
   overflow-y: scroll;
 }
 
+.sidebar-box::-webkit-scrollbar{
+  display: none ;
+}
+
 .micro-influx {
   width: 100%;
   font-size: 18px;
